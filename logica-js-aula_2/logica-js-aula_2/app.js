@@ -32,3 +32,4 @@ alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentati
     alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${quantidadeTentativas}`)
 } */
 
+    
