@@ -32,5 +32,7 @@ function buttonSoma(number1, number2){
     number1 = parseInt(prompt("Qual o primeiro valor?"))
     number2 = parseInt(prompt("Qual o próximo valor?"))
 
-    return alert(number1 + number2)
+    return alert(`A soma dos números digitados é ${number1 + number2}`)
 }
+
+    
