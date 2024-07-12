@@ -1,8 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body{
+    height: 100vh;
     background-color: #023047;
     color: #F6F6F6;
+    box-sizing: border-box;
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #ffb703 ;
 }
 
 .highlightTitle{
     color: #ffb703;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.presentation__content{
+    width: 615px;
+    
+}
+
+.presentation__content__title{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.presentation__content__text{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
 }
