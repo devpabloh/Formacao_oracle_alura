@@ -12,7 +12,7 @@ body{
     
 }
 
-img{
+.imagem__perfil{
     height: 300px;
     width: 300px;
     border-radius: 10px;
@@ -71,4 +71,9 @@ img{
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #ffb703;
+}
+
+.presentation__links__link img{
+    height: 50px;
+    width: 50px;
 }
